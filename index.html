@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reverie Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: #0b0014;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.sub {
+  text-align: center;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.tab {
+  background: #1b082d;
+  border: 1px solid #ff2d8d;
+  border-radius: 30px;
+  padding: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: #12051f;
+  border-radius: 24px;
+  padding: 25px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 32px;
+}
+
+.desc {
+  color: #53ffb2;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.price {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffe27a;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff008c, #ff4d6d);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>REVERIE</h1>
+    <p class="sub">File chuẩn • Bảo hành dài hạn • Hỗ trợ Android & iOS</p><div class="tabs">
+  <div class="tab">Bản Aimlock</div>
+  <div class="tab">Nhẹ Tâm</div>
+  <div class="tab">Premium</div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>LOCKHEAD VIP</h2>
+    <div class="desc">⚡ Kéo nhẹ khóa đầu 40%</div>
+    <div class="price">50.000đ</div>
+    <button onclick="window.open('https://zalo.me/0788905830', '_blank')">MUA NGAY</button>
+  </div>
+
+  <div class="card">
+    <h2>NHẸ TÂM BASIC</h2>
+    <div class="desc">⚡ Kéo tâm nhẹ không bị nặng</div>
+    <div class="price">50.000đ</div>
+    <button onclick="window.open('https://zalo.me/0788905830', '_blank')">MUA NGAY</button>
+  </div>
+
+  <div class="card">
+    <h2>NHẸ TÂM BÁM ĐẦU 70%</h2>
+    <div class="desc">⚡ Tối ưu bám đầu mạnh hơn ổn định hơn</div>
+    <div class="price">150.000đ</div>
+    <button onclick="window.open('https://zalo.me/0788905830', '_blank')">MUA NGAY</button>
+  </div>
+</div>
+
+  </div>
+</body>
+</html>
